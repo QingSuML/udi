@@ -1,7 +1,7 @@
 # Unsqueeze [![](https://img.shields.io/badge/CLS-8A2BE2)] Bottleneck to Learn Rich Representations
 
 This is the official PyTorch implementation of **UDI** proposed in our paper, "_Unsqueeze \[CLS\] bottleneck to Learn Rich Representations_", available at: [![arXiv](https://img.shields.io/badge/arXiv-2407.17671-b31b1b.svg?style=flat)](http://arxiv.org/abs/2407.17671)
-[![arXiv](https://img.shields.io/badge/ECCV2024-place_holder-skyblue.svg?style=flat)](http://arxiv.org/abs/placeholder)
+[![arXiv](https://img.shields.io/badge/ECCV2024-tbd-skyblue.svg?style=flat)](http://arxiv.org/abs/placeholder)
 
 
  <br />
