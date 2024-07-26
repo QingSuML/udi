@@ -1,0 +1,13 @@
+python==3.9.5
+numpy
+matplotlib
+torch==1.12.1+cu116 
+torchvision==0.13.1+cu116
+cudatoolkit==11.6.0
+torchvision==0.13.1
+timm == 0.4.5
+tqdm
+tensorboard
+tensorboardX
+pillow
+scipy
