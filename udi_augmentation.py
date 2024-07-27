@@ -384,8 +384,10 @@ class DataAugmentation(object):
         #transform
         self.transformation = transforms.Compose([color_jitter,
                                                   utils.RandomSelect(
-                                                      utils.GaussianBlur(p=0.5),
-                                                      utils.GaussianBlur(p=1.0),
+                                                      utils.RandomSelect(
+                                                          utils.GaussianBlur(p=0.5),
+                                                          utils.GaussianBlur(p=1.0), 
+                                                          p=0.5),
                                                       transforms.Compose([
                                                           utils.GaussianBlur(.1),
                                                           utils.Solarization(.2),]),
