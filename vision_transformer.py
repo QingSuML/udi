@@ -112,7 +112,7 @@ class MaskedAttention(Attention):
         s, h = map.shape[-2], self.num_heads
         mask = map.sum(-1) > 0  #mask shape: -1, B, s
     
-        qkv = self.qkv(x).reshape(B, N, 3, 1, h, C // self.num_heads).permute(2, 3, 0, 4, 1, 5)
+        qkv = self.qkv(x).reshape(B, N, 3, 1, h, C // h).permute(2, 3, 0, 4, 1, 5)
         q, k, v = qkv[0], qkv[1], qkv[2] # 1, B, h, N, d
         
         q = map.unsqueeze(-3) @ q # -1, B, h, s, d
