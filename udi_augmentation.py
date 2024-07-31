@@ -379,7 +379,7 @@ class DataAugmentation(object):
                      
         # local crop
         local_resize = transforms.Resize(_tuple2(self.local_size), interpolation=InterpolationMode.BICUBIC) 
-        self.local_crop = Compose([RandomCropCoord(scale=local_crops_scale), local_resize]) #*random_flip,
+        self.local_crop = Compose([RandomCropCoord(scale=local_crops_scale), *random_flip, local_resize])
         
         #transform
         self.transformation = transforms.Compose([color_jitter,
