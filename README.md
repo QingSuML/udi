@@ -1,7 +1,7 @@
 # Unsqueeze [![](https://img.shields.io/badge/CLS-8A2BE2)] Bottleneck to Learn Rich Representations
 
 This is the official PyTorch implementation of **UDI** proposed in our paper, "_Unsqueeze \[CLS\] bottleneck to Learn Rich Representations_", available at: [![arXiv](https://img.shields.io/badge/arXiv-2407.17671-b31b1b.svg?style=flat)](http://arxiv.org/abs/2407.17671)
-[![arXiv](https://img.shields.io/badge/ECCV2024-tbd-skyblue.svg?style=flat)](http://arxiv.org/abs/placeholder)
+[![arXiv](https://img.shields.io/badge/ECCV2024-tbd-skyblue.svg?style=flat)](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/5810_ECCV_2024_paper.php)
 
 
  <br />
@@ -151,7 +151,7 @@ If you find this repository useful, please consider giving a star :star: and cit
 @inproceedings{udi2024ssl,
   title={Unsqueeze [CLS] bottleneck to Learn Rich Representations},
   author={Qing Su and Shihao Ji},
-  booktitle={arXiv preprint arXiv:2407.17671},
+  booktitle={The 18th European Conference on Computer Vision (ECCV)},
   year={2024}
 }
 ```
